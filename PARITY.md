@@ -31,4 +31,4 @@
 
 원본에는 수치 점수나 고정 정답이 없습니다. 검증한 동일성은 지침·역할·순서·독립성·출력 요건입니다. 모델 출력 자체의 일치, 실제 채용 ATS 동작, 사용자 컴퓨터 설치, GitHub 업로드는 별개의 확인 대상입니다. GitHub Actions는 구성만 완료했으며 원격 실행 결과는 아직 없습니다.
 
-GitHub API 호출은 Forbidden으로 거부되었으나, 사용자 지정 저장소 `https://github.com/junjara1005-design/-.git`의 Git 읽기 접근은 재확인 후 성공했습니다. Git 전송 경로를 사용하며 GitHub API 권한을 전제로 하지 않습니다. 원격 Actions 실행 결과는 별도 확인 대상입니다.
+GitHub API 호출은 Forbidden으로 거부되었으나, 사용자 지정 저장소 `https://github.com/c69wsgk8gj-del/-.git`의 Git 읽기 접근은 재확인 후 성공했습니다. Git 전송 경로를 사용하며 GitHub API 권한을 전제로 하지 않습니다. 원격 Actions 실행 결과는 별도 확인 대상입니다.

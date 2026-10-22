@@ -19,7 +19,7 @@ $hiring-panel my-resume.pdf
 Codex가 설치·로그인된 환경에서 이 프로젝트를 내려받거나 압축을 해제하세요.
 
 ```bash
-git clone https://github.com/junjara1005-design/-.git resume-review
+git clone https://github.com/c69wsgk8gj-del/-.git resume-review
 cd resume-review
 ```
 
