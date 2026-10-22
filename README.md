@@ -67,6 +67,18 @@ $hiring-panel 방금 작성한 이력서를 안전보건 직무 기준으로 평
 
 `PANEL.md`에서 일곱 판정과 중요도순 문제, 자동 검사 전후 결과를 확인하고 `RESUME-IMPROVED.md`를 원문과 비교하세요. 회사·직무·기간·실제 도구·업무·수치를 대조해야 합니다. `[ADD]`를 사실로 보완하거나 해당 문장을 삭제한 뒤 제출하세요. 빈칸이 남은 편집 초안은 제출 준비 완료가 아닙니다. 최종 형식·글자 수는 공고와 채용시스템 기준을 따릅니다. 실제 ATS 통과나 취업을 보장하지 않습니다.
 
+## Notion API 연동
+
+평가 결과와 수정본을 Notion 하위 페이지로 저장할 수 있습니다. 원본 스킬의 평가 절차는 유지되며, 업로드는 별도로 요청할 때만 수행합니다.
+
+```bash
+python3 scripts/notion_export.py --check
+python3 scripts/notion_export.py '.hiring-panel/날짜-이름' --dry-run
+python3 scripts/notion_export.py '.hiring-panel/날짜-이름'
+```
+
+환경 설정에 `NOTION_TOKEN` 비밀값과 `NOTION_PARENT_PAGE_ID`를 등록하고, 내부 통합에 상위 페이지 접근을 허용하세요. 상세 설정과 오류 복구 절차는 [Notion 연동 가이드](docs/NOTION.md)에 있습니다. 추가 Python 패키지는 필요하지 않습니다.
+
 ## 검증 및 출처
 
 ```bash
